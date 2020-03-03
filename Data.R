@@ -1,10 +1,10 @@
-## For installing packages in R,
+ **For installing packages in R**
 ```R
 install.packages("data.table")
 library("data.table")  
 ```
 
-## <b>Only used if required package doesn't exist</b>
+ **Only used if required package doesn't exist**
 quiz_data <- fread('hw1_data.csv')
 <b>sed to read data or importing data in R</b>
 
