@@ -8,7 +8,7 @@ library("data.table")
 quiz_data <- fread('hw1_data.csv')
 <b>sed to read data or importing data in R</b>
 
-<To Find out total number of rows we use the code given below<
+<To Find out total number of rows we use the code given below>
 
 nrows(quiz_data)
 
