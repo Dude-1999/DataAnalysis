@@ -21,7 +21,7 @@ nrow(sub)
 Outlier Detection methods like quantile method in case of Ozone xolumn where we get boxplot and histogram diagrams
 
 # It(below) detects outliers by a method called quantile capp method which means a sample is derived from a given quantity.
-```
+Code:
 outdetect <- function(c,w=1.5)
 {
   h <- w*IQR(c,na.rm = T)
@@ -35,10 +35,9 @@ outdetect <- function(c,w=1.5)
   else
     cat("There are",sum(q[2]+h<c,na.rm = T),"observations above the 3rd quantile","on rows",which(q[2]+h<c),"and the values are",boxplot.stats(c)$out,"\n")
 }
-```
-
 Outiler removal by box plot method:
-Box plot method is a method which are a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”
+## Box plot method is a method which are a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”
 par(mfrow=c(1,2))
+Code:
 boxplot(airquality$Ozone,col = "antiquewhite3",main = "Boxplot of Ozone",outcol="Blue",outpch=19,boxwex=0.7,range = 1.5)
 hist(airquality$Ozone,col = "antiquewhite3",main = "Histogram of Ozone", xlab = "Observations",breaks = 15)
