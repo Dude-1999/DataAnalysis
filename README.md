@@ -1,4 +1,4 @@
-# DataAnalysis
+# 1> DataAnalysis
 Exploratory Air Quality Dataset Analysis using R
 Important Note:
 Daily air quality measurements in New York, May to September 1973.
@@ -14,3 +14,5 @@ Temp: Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.
 Main source for project:
 THe dataset was obtained from kaggle and the data in kaggle was obtained through New York department of Conservation and National Weather Service(NWS).
 
+2.  
+30-day mortality rates plot for heart attack
